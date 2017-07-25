@@ -49,7 +49,8 @@ module.exports = {
             "%",
             "s",
             "ms",
-            "deg"
+            "deg",
+            "vw"
         ],
 
         "value-keyword-case": [
