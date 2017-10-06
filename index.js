@@ -26,7 +26,7 @@ module.exports = {
         "function-name-case": "lower",
         "function-parentheses-newline-inside": "always-multi-line",
         "function-parentheses-space-inside": "never",
-        "function-url-data-uris": "never",
+        "function-url-scheme-blacklist": ["data", "/[A-Z]/"],
         "function-url-no-scheme-relative": true,
         "function-url-quotes": "always",
         "function-whitespace-after": "always",
@@ -140,7 +140,7 @@ module.exports = {
         "selector-combinator-space-before": "always",
         "selector-descendant-combinator-no-non-space": true,
         "selector-max-compound-selectors": 3,
-        "selector-no-id": true,
+        "selector-max-id": 0,
         "selector-no-qualifying-type": [
             true,
             {
@@ -149,7 +149,7 @@ module.exports = {
                 ]
             }
         ],
-        "selector-no-universal": true,
+        "selector-max-universal": 0,
         "selector-pseudo-class-case": "lower",
         "selector-pseudo-class-no-unknown": true,
         "selector-pseudo-class-parentheses-space-inside": "never",
