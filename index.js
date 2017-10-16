@@ -56,7 +56,7 @@ module.exports = {
         "value-keyword-case": [
             "lower",
             {
-                "ignoreKeywords": ["Arial"],
+                "ignoreKeywords": ["Arial", "ProximaNovaCond"],
             }
         ],
         "value-list-comma-newline-after": "always-multi-line",
