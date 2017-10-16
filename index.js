@@ -56,7 +56,7 @@ module.exports = {
         "value-keyword-case": [
             "lower",
             {
-                "ignoreKeywords": ["Arial"],
+                "ignoreProperties": ["/^\@?font-family/"],
             }
         ],
         "value-list-comma-newline-after": "always-multi-line",
