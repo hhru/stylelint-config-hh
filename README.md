@@ -4,7 +4,7 @@
 
 ### 2.0.1
 
-- В правило `value-keyword-case` добавлено исключение для шрифта "ProximaNovaCond"
+- В правило `value-keyword-case` добавлено исключение для свойства `font-family`
 
 ### 2.0.0
     
