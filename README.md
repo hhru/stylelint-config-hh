@@ -2,6 +2,12 @@
 
 ## История изменений
 
+
+### 2.0.3
+
+- В правиле `stylelint-order` изменён порядок перечисления свойств. Less-mixins добавлены перед declarations.
+- Подняли версию плагина `stylelint-order`
+
 ### 2.0.2
 
 - Исправлен баг в значении `ignoreProperties` правила `value-keyword-case`

@@ -265,7 +265,15 @@ module.exports = {
         "scss/selector-no-redundant-nesting-selector": true,
 
         "order/order": [
-            ["at-variables", "declarations", "rules", "at-rules"],
+            "at-variables",
+            // Для обработки less-миксинов вида .my-mixin()
+            {
+                type: "rule",
+                selector: /^\.[\w-_]+\((.+)?\)$/
+            },
+            "declarations",
+            "rules",
+            "at-rules"
         ],
 
         "plugin/value-list-box-shadow-inset-first": true,
