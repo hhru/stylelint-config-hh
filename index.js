@@ -266,11 +266,6 @@ module.exports = {
 
         "order/order": [
             "at-variables",
-            // Для обработки less-миксинов вида .my-mixin()
-            {
-                type: "rule",
-                selector: /^\.[\w-_]+\((.+)?\)$/
-            },
             "declarations",
             "rules",
             "at-rules"
