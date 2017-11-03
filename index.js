@@ -102,7 +102,7 @@ module.exports = {
             "font-style": ["inherit", "initial", "unset", "italic", "normal", "/^@/"],
             //"z-index": ["inherit", "initial", "unset", "/^@/"]
             //"font-size": ["inherit", "initial", "unset", "/^@/"]
-            //"font-family": ["inherit", "initial", "unset", "/^@/"]
+            "font-family": ["inherit", "initial", "unset", "/^@/"]
         },
         "declaration-property-value-blacklist": {
             "/^border/": ["/\\bnone\\b/"]

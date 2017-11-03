@@ -2,6 +2,10 @@
 
 ## История изменений
 
+### 2.0.6
+
+- В правило `declaration-property-value-whitelist` добавлена проверка свойства `font-family`. Разрешенные значения: `inherit`, `initial`, `unset` и less-переменные.
+
 ### 2.0.5
 
 - Добавили единицу измерения vh в `unit-whitelist`
