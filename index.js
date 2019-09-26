@@ -13,6 +13,7 @@ module.exports = {
 
         "font-family-name-quotes": "always-where-recommended",
         "font-family-no-duplicate-names": true,
+        "font-family-no-missing-generic-family-keyword": true,
 
         "font-weight-notation": "named-where-possible",
 
@@ -73,6 +74,7 @@ module.exports = {
         "property-no-unknown": true,
 
         "keyframe-declaration-no-important": true,
+        "keyframes-name-pattern": /^[a-z0-9-]+$/,
 
         "declaration-bang-space-after": "never",
         "declaration-bang-space-before": "always",
@@ -246,7 +248,9 @@ module.exports = {
         /*
         "no-descending-specificity": true,
         */
+        "no-duplicate-at-import-rules": true,
         "no-duplicate-selectors": true,
+        "no-empty-first-line": true,
         "no-empty-source": true,
         "no-eol-whitespace": true,
         "no-extra-semicolons": true,
@@ -273,6 +277,9 @@ module.exports = {
         ],
 
         "plugin/value-list-box-shadow-inset-first": true,
+
+        "linebreaks": "unix",
+        "unicode-bom": "never",
 
         // @kebab-case-variables-only
         "hh/at-variable-pattern": "^[a-z]+[a-z0-9]*(?:-[a-z0-9]+)*$",

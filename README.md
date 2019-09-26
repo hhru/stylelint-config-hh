@@ -5,6 +5,13 @@
 ### 3.0.0
 
 - Поднял версии зависимостей
+- Включил правила
+    - `font-family-no-missing-generic-family-keyword`
+    - `keyframes-name-pattern`
+    - `no-duplicate-at-import-rules`
+    - `no-empty-first-line`
+    - `linebreaks`
+    - `unicode-bom`
 
 ### 2.0.6
 
