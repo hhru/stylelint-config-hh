@@ -1,6 +1,6 @@
 {
   "name": "@hh.ru/stylelint-config-hh",
-  "version": "2.0.6",
+  "version": "3.0.0",
   "description": "HH.ru config for stylelint",
   "main": "index.js",
   "repository": {
@@ -14,9 +14,9 @@
   "homepage": "https://github.com/hhru/stylelint-config-hh#readme",
   "dependencies": {
     "lodash": "~4.17.4",
-    "stylelint": "~8.2.0",
-    "stylelint-order": "~0.7.0",
-    "stylelint-scss": "~1.4.4",
-    "stylelint-value-list-box-shadow-inset-first": "~1.0.1"
+    "stylelint": "~11.0.0",
+    "stylelint-order": "~3.1.1",
+    "stylelint-scss": "~3.11.1",
+    "stylelint-value-list-box-shadow-inset-first": "~2.0.1"
   }
 }
