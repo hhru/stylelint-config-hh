@@ -144,6 +144,12 @@ module.exports = {
         "selector-descendant-combinator-no-non-space": true,
         "selector-max-compound-selectors": 3,
         "selector-max-id": 0,
+        "selector-nested-pattern": [
+            /^([^&]|(&[^-_]))+&?$/,
+            {
+                message: "Do not use parent selector for blocks/elements/modifiers"
+            }
+        ],
         "selector-no-qualifying-type": [
             true,
             {

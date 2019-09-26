@@ -12,6 +12,7 @@
     - `no-empty-first-line`
     - `linebreaks`
     - `unicode-bom`
+- Запретил parent selector для блоков/элементов/модификаторов
 
 ### 2.0.6
 
