@@ -37,7 +37,7 @@ module.exports = {
         "number-no-trailing-zeros": true,
 
         "string-no-newline": true,
-        "string-quotes": "double",
+        "string-quotes": "single",
 
         "length-zero-no-unit": true,
 

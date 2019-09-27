@@ -13,6 +13,7 @@
     - `linebreaks`
     - `unicode-bom`
 - Запретил parent selector для блоков/элементов/модификаторов
+- Поменял значение правила `string-quotes` с `double` на `single`
 
 ### 2.0.6
 
