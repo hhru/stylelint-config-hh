@@ -2,6 +2,19 @@
 
 ## История изменений
 
+### 3.0.0
+
+- Поднял версии зависимостей
+- Включил правила
+    - `font-family-no-missing-generic-family-keyword`
+    - `keyframes-name-pattern`
+    - `no-duplicate-at-import-rules`
+    - `no-empty-first-line`
+    - `linebreaks`
+    - `unicode-bom`
+- Запретил parent selector для блоков/элементов/модификаторов
+- Поменял значение правила `string-quotes` с `double` на `single`
+
 ### 2.0.6
 
 - В правило `declaration-property-value-whitelist` добавлена проверка свойства `font-family`. Разрешенные значения: `inherit`, `initial`, `unset` и less-переменные.
