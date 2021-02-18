@@ -26,7 +26,7 @@ module.exports = {
         "function-max-empty-lines": 0,
         "function-name-case": "lower",
         "function-parentheses-newline-inside": "always-multi-line",
-        "function-parentheses-space-inside": "never",
+        "function-parentheses-space-inside": "never-single-line",
         "function-url-scheme-blacklist": ["data", "/[A-Z]/"],
         "function-url-no-scheme-relative": true,
         "function-url-quotes": "always",
