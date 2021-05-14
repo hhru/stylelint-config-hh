@@ -2,6 +2,13 @@
 
 ## История изменений
 
+### 4.0.0
+
+- Поднял версию stylelint до 13.13.1
+- Поднял версию stylelint-order до 4.1.0
+- Поднял версию stylelint-scss до 3.19.0
+- Поднял версию lodash до 4.17.21
+
 ### 3.1.0
 
 - Поменял "never" на "never-single-line" для function-parentheses-space-inside из-за конфликта с
