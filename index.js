@@ -27,7 +27,7 @@ module.exports = {
         "function-name-case": "lower",
         "function-parentheses-newline-inside": "always-multi-line",
         "function-parentheses-space-inside": "never-single-line",
-        "function-url-scheme-blacklist": ["data", "/[A-Z]/"],
+        "function-url-scheme-disallowed-list": ["data", "/[A-Z]/"],
         "function-url-no-scheme-relative": true,
         "function-url-quotes": "always",
         "function-whitespace-after": "always",
@@ -45,7 +45,7 @@ module.exports = {
 
         "unit-case": "lower",
         "unit-no-unknown": true,
-        "unit-whitelist": [
+        "unit-allowed-list": [
             "px",
             "%",
             "s",
@@ -69,7 +69,7 @@ module.exports = {
 
         "shorthand-property-no-redundant-values": true,
 
-        "property-blacklist": ["font"],
+        "property-disallowed-list": ["font"],
         "property-case": "lower",
         "property-no-unknown": true,
 
@@ -94,11 +94,11 @@ module.exports = {
         ],
         "declaration-no-important": true,
         /*
-        "declaration-property-unit-whitelist": {
+        "declaration-property-value-allowed-list": {
             "line-height": []
         },
         */
-        "declaration-property-value-whitelist": {
+        "declaration-property-value-allowed-list": {
             //"/color/": ["inherit", "initial", "unset", "currentColor", "transparent", "/^@/"],
             "font-weight": ["inherit", "initial", "unset", "bold", "normal", "/^@/"],
             "font-style": ["inherit", "initial", "unset", "italic", "normal", "/^@/"],
@@ -106,7 +106,7 @@ module.exports = {
             //"font-size": ["inherit", "initial", "unset", "/^@/"]
             "font-family": ["inherit", "initial", "unset", "/^@/"]
         },
-        "declaration-property-value-blacklist": {
+        "declaration-property-value-disallowed-list": {
             "/^border/": ["/\\bnone\\b/"]
         },
 
@@ -214,7 +214,7 @@ module.exports = {
         "at-rule-no-unknown": true,
         "at-rule-semicolon-newline-after": "always",
         "at-rule-semicolon-space-before": "never",
-        "at-rule-whitelist": ["media", "keyframes", "import"],
+        "at-rule-allowed-list": ["media", "keyframes", "import"],
 
         "comment-empty-line-before": [
             "always",
