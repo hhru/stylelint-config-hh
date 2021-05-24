@@ -2,7 +2,6 @@ module.exports = {
     "plugins": [
         "stylelint-scss",
         "stylelint-order",
-        "stylelint-value-list-box-shadow-inset-first",
         "./plugins/stylelint-at-variable-pattern"
     ],
     "rules": {
@@ -281,8 +280,6 @@ module.exports = {
             "rules",
             "at-rules"
         ],
-
-        "plugin/value-list-box-shadow-inset-first": true,
 
         "linebreaks": "unix",
         "unicode-bom": "never",
