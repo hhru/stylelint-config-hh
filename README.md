@@ -2,6 +2,10 @@
 
 ## История изменений
 
+### 4.1.0
+
+- Удалил stylelint-value-list-box-shadow-inset-first плагин.
+
 ### 4.0.1
 
 - Переименовал deprecated правила.
