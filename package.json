@@ -1,6 +1,6 @@
 {
   "name": "@hh.ru/stylelint-config-hh",
-  "version": "4.1.0",
+  "version": "5.0.0",
   "description": "HH.ru config for stylelint",
   "main": "index.js",
   "repository": {
@@ -17,7 +17,6 @@
   },
   "peerDependencies": {
     "stylelint": "~13.13.1",
-    "stylelint-order": "~4.1.0",
     "stylelint-scss": "~3.19.0"
   }
 }

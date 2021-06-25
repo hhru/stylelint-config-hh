@@ -1,7 +1,6 @@
 module.exports = {
     "plugins": [
         "stylelint-scss",
-        "stylelint-order",
         "./plugins/stylelint-at-variable-pattern"
     ],
     "rules": {
@@ -273,13 +272,6 @@ module.exports = {
             }
         ],
         "scss/selector-no-redundant-nesting-selector": true,
-
-        "order/order": [
-            "at-variables",
-            "declarations",
-            "rules",
-            "at-rules"
-        ],
 
         "linebreaks": "unix",
         "unicode-bom": "never",
