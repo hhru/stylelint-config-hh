@@ -99,7 +99,7 @@ module.exports = {
         */
         "declaration-property-value-allowed-list": {
             //"/color/": ["inherit", "initial", "unset", "currentColor", "transparent", "/^@/"],
-            "font-weight": ["inherit", "initial", "unset", "bold", "normal", "/^@/"],
+            "font-weight": ["inherit", "initial", "unset", "bold", "normal", "800", "/^@/"],
             "font-style": ["inherit", "initial", "unset", "italic", "normal", "/^@/"],
             //"z-index": ["inherit", "initial", "unset", "/^@/"]
             //"font-size": ["inherit", "initial", "unset", "/^@/"]

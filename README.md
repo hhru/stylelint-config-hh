@@ -2,6 +2,10 @@
 
 ## История изменений
 
+### 4.1.1
+
+- Добавлено начертание 800 в font-weight declaration-property-value-allowed-list
+
 ### 4.1.0
 
 - Удалил stylelint-value-list-box-shadow-inset-first плагин.
