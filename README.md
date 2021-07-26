@@ -2,6 +2,10 @@
 
 ## История изменений
 
+### 4.1.2
+
+- В правило `declaration-property-value-disallowed-list` добавлена проверка, запрещающая использовать цвета HEX, RGBA и HSLA напрямую
+
 ### 4.1.1
 
 - Добавлено начертание 800 в font-weight declaration-property-value-allowed-list
