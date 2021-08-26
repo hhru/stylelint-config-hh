@@ -110,10 +110,9 @@ module.exports = {
             "font-family": ["inherit", "initial", "unset", "/^@/"]
         },
         "declaration-property-value-disallowed-list": {
-            "/^border/": ["/\\bnone\\b/"],
+            "/^border/": [HEX_REGEX, RGBA_REGEX, HSLA_REGEX, "/\\bnone\\b/"],
             "/color$/": [HEX_REGEX, RGBA_REGEX, HSLA_REGEX],
             "/background/": [HEX_REGEX, RGBA_REGEX, HSLA_REGEX],
-            "/border/": [HEX_REGEX, RGBA_REGEX, HSLA_REGEX],
             "/box-shadow/": [HEX_REGEX, RGBA_REGEX, HSLA_REGEX],
             "/fill/": [HEX_REGEX, RGBA_REGEX, HSLA_REGEX],
             "/stroke/": [HEX_REGEX, RGBA_REGEX, HSLA_REGEX]

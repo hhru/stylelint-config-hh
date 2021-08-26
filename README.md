@@ -2,6 +2,10 @@
 
 ## История изменений
 
+### 4.1.3
+
+- Для правила `declaration-property-value-disallowed-list` исправлена проверка для свойства `border`
+
 ### 4.1.2
 
 - В правило `declaration-property-value-disallowed-list` добавлена проверка, запрещающая использовать цвета HEX, RGBA и HSLA напрямую
