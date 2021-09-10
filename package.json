@@ -19,5 +19,8 @@
     "stylelint": "~13.13.1",
     "stylelint-order": "~4.1.0",
     "stylelint-scss": "~3.19.0"
+  },
+  "scripts": {
+    "release": "npm publish --access=public"
   }
 }
