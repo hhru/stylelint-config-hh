@@ -72,7 +72,7 @@ module.exports = {
 
         "shorthand-property-no-redundant-values": true,
 
-        "property-disallowed-list": ["font"],
+        "property-disallowed-list": ["font", "font-size", "font-weight", "font-style"],
         "property-case": "lower",
         "property-no-unknown": true,
 
