@@ -2,6 +2,10 @@
 
 ## История изменений
 
+### 5.0.0
+
+Запретил CSS-правила `font-size`, `font-weight` и `font-family`.
+
 ### 4.1.3
 
 - Для правила `declaration-property-value-disallowed-list` исправлена проверка для свойства `border`
