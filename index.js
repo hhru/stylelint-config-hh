@@ -72,7 +72,7 @@ module.exports = {
 
         "shorthand-property-no-redundant-values": true,
 
-        "property-disallowed-list": ["font", "font-size", "font-weight", "font-style"],
+        "property-disallowed-list": ["font"],
         "property-case": "lower",
         "property-no-unknown": true,
 
@@ -96,17 +96,12 @@ module.exports = {
             }
         ],
         "declaration-no-important": true,
-        /*
-        "declaration-property-value-allowed-list": {
-            "line-height": []
-        },
-        */
         "declaration-property-value-allowed-list": {
             //"/color/": ["inherit", "initial", "unset", "currentColor", "transparent", "/^@/"],
-            "font-weight": ["inherit", "initial", "unset", "bold", "normal", "800", "/^@/"],
-            "font-style": ["inherit", "initial", "unset", "italic", "normal", "/^@/"],
+            "font-size": ["inherit", "initial", "unset", "0"],
+            "font-weight": ["inherit", "initial", "unset", "normal"],
+            "font-style": ["inherit", "initial", "unset"],
             //"z-index": ["inherit", "initial", "unset", "/^@/"]
-            //"font-size": ["inherit", "initial", "unset", "/^@/"]
             "font-family": ["inherit", "initial", "unset", "/^@/"]
         },
         "declaration-property-value-disallowed-list": {
