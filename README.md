@@ -2,6 +2,13 @@
 
 ## История изменений
 
+### 5.0.1
+
+Разрешил обратно CSS-правила `font-size`, `font-weight` и `font-family`, но только с разрешенными значениями:
+* font-size: inherit, initial, unset, 0;
+* font-weight: inherit, initial, unset, normal;
+* font-style: inherit, initial, unset;
+
 ### 5.0.0
 
 Запретил CSS-правила `font-size`, `font-weight` и `font-family`.
