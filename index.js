@@ -289,7 +289,7 @@ module.exports = {
         "unicode-bom": "never",
 
         // @kebab-case-variables-only
-        "hhru/less-variable-name-pattern": "^[a-z]+[a-z0-9]*(?:-[a-z0-9]+)*$",
+        "hhru/less-variable-name-pattern": "^_?[a-z]+[a-z0-9]*(?:-[a-z0-9]+)*$",
 
         // no colors in variables
         "hhru/less-variable-value-disallowed-list": {
