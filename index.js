@@ -6,7 +6,7 @@ module.exports = {
     "plugins": [
         "stylelint-scss",
         "stylelint-order",
-        "./plugins/stylelint-at-variable-pattern"
+        "./plugins/hhru"
     ],
     "rules": {
         "color-hex-case": "lower",
@@ -289,6 +289,11 @@ module.exports = {
         "unicode-bom": "never",
 
         // @kebab-case-variables-only
-        "hh/at-variable-pattern": "^[a-z]+[a-z0-9]*(?:-[a-z0-9]+)*$",
+        "hhru/less-variable-name-pattern": "^[a-z]+[a-z0-9]*(?:-[a-z0-9]+)*$",
+
+        // no colors in variables
+        "hhru/less-variable-value-disallowed-list": {
+            '*': [HEX_REGEX, RGBA_REGEX, HSLA_REGEX],
+        }
     },
 };
