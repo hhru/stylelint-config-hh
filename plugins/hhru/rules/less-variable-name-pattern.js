@@ -1,10 +1,10 @@
 const _ = require('lodash');
 const stylelint = require('stylelint');
 
-const ruleName = 'hh/at-variable-pattern';
+const ruleName = 'hhru/less-variable-name-pattern';
 
 const messages = stylelint.utils.ruleMessages(ruleName, {
-    expected: 'Expected at variable name to match specified pattern',
+    expected: (name, pattern) => `Expected variable "@${name}" name to match pattern "${pattern}"`,
 });
 
 module.exports = stylelint.createPlugin(ruleName, (pattern) => {
@@ -22,20 +22,18 @@ module.exports = stylelint.createPlugin(ruleName, (pattern) => {
 
         const regexpPattern = _.isString(pattern) ? new RegExp(pattern) : pattern;
 
-        root.walkDecls((decl) => {
-            const prop = decl.prop;
-
-            if (prop[0] !== '@' || prop[1] === '{') {
+        root.walkAtRules((node) => {
+            if (!node.variable) {
                 return;
             }
 
-            if (regexpPattern.test(prop.slice(1))) {
+            if (regexpPattern.test(node.name)) {
                 return;
             }
 
             stylelint.utils.report({
-                message: messages.expected,
-                node: decl,
+                message: messages.expected(node.name, regexpPattern),
+                node: node,
                 result,
                 ruleName,
             });
