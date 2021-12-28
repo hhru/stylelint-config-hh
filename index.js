@@ -1,6 +1,7 @@
 const HEX_REGEX = new RegExp(/#[\da-f]{3,6}/);
 const RGBA_REGEX = new RegExp(/rgba?\(/);
 const HSLA_REGEX = new RegExp(/hsla?\(/);
+const NO_TRANSPARENT_IN_GRADIENT_REGEX = new RegExp(/gradient.+?transparent/);
 
 module.exports = {
     "plugins": [
@@ -107,7 +108,7 @@ module.exports = {
         "declaration-property-value-disallowed-list": {
             "/^border/": [HEX_REGEX, RGBA_REGEX, HSLA_REGEX, "/\\bnone\\b/"],
             "/color$/": [HEX_REGEX, RGBA_REGEX, HSLA_REGEX],
-            "/background/": [HEX_REGEX, RGBA_REGEX, HSLA_REGEX],
+            "/background/": [HEX_REGEX, RGBA_REGEX, HSLA_REGEX, NO_TRANSPARENT_IN_GRADIENT_REGEX],
             "/box-shadow/": [HEX_REGEX, RGBA_REGEX, HSLA_REGEX],
             "/fill/": [HEX_REGEX, RGBA_REGEX, HSLA_REGEX],
             "/stroke/": [HEX_REGEX, RGBA_REGEX, HSLA_REGEX]
