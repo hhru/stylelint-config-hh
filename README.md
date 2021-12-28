@@ -2,6 +2,10 @@
 
 ## История изменений
 
+### 8.0.0
+
+В правило `declaration-property-value-disallowed-list` для свойства `background` добавлена проверка, не позволяющая использовать `transparent` внутри `gradient` 
+
 ### 7.0.0
 
 Добавлено правило less-variable-value-disallowed-list, позволяющее запретить некоторые значения для less-переменных
