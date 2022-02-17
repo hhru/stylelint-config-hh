@@ -164,7 +164,13 @@ module.exports = {
         ],
         "selector-max-universal": 0,
         "selector-pseudo-class-case": "lower",
-        "selector-pseudo-class-no-unknown": true,
+        "selector-pseudo-class-no-unknown": [
+            true,
+            {
+                // :global используется для CSS-модулей https://github.com/css-modules/css-modules#exceptions
+                "ignorePseudoClasses": ["global"]
+            }
+        ],
         "selector-pseudo-class-parentheses-space-inside": "never",
         "selector-pseudo-element-case": "lower",
         "selector-pseudo-element-colon-notation": "double",
