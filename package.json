@@ -1,6 +1,6 @@
 {
   "name": "@hh.ru/stylelint-config-hh",
-  "version": "9.0.0",
+  "version": "10.0.0",
   "description": "HH.ru config for stylelint",
   "main": "index.js",
   "repository": {
