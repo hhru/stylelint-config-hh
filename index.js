@@ -99,11 +99,11 @@ module.exports = {
         "declaration-no-important": true,
         "declaration-property-value-allowed-list": {
             //"/color/": ["inherit", "initial", "unset", "currentColor", "transparent", "/^@/"],
-            "font-size": ["inherit", "initial", "unset", "0", /@bloko-typography-[a-zA-Z-]+-fontSize/],
-            "font-weight": ["inherit", "initial", "unset", "normal", /@bloko-typography-[a-zA-Z-]+-fontWeight/],
+            "font-size": ["inherit", "initial", "unset", "0", /@bloko-typography-[a-zA-Z-]+-font-size/],
+            "font-weight": ["inherit", "initial", "unset", "normal", /@bloko-typography-[a-zA-Z-]+-font-weight/],
             "font-style": ["inherit", "initial", "unset"],
             //"z-index": ["inherit", "initial", "unset", "/^@/"]
-            "font-family": ["inherit", "initial", "unset", "/^@/", /@bloko-typography-[a-zA-Z-]+-fontFamily/]
+            "font-family": ["inherit", "initial", "unset", "/^@/", /@bloko-typography-[a-zA-Z-]+-font-family/]
         },
         "declaration-property-value-disallowed-list": {
             "/^border/": [HEX_REGEX, RGBA_REGEX, HSLA_REGEX, "/\\bnone\\b/"],
