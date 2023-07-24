@@ -55,6 +55,7 @@ module.exports = {
             "s",
             "ms",
             "deg",
+            "fr",
             "vw",
             "vh"
         ],
