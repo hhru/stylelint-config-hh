@@ -103,7 +103,20 @@ module.exports = {
             "font-size": ["inherit", "initial", "unset", "0", /@bloko-typography-[a-zA-Z-]+-font-size/, /@magritte-core-font-size-[\d]/],
             "font-weight": ["inherit", "initial", "unset", "normal", /@bloko-typography-[a-zA-Z-]+-font-weight/],
             "font-style": ["inherit", "initial", "unset"],
-            //"z-index": ["inherit", "initial", "unset", "/^@/"]
+            "z-index": [
+                "inherit",
+                "initial",
+                "unset",
+                "@floating",
+                "@above-overlay-content",
+                "@topmost",
+                "@overlay",
+                "@overlay-content",
+                "@above-content-almost",
+                "@above-content",
+                "@cover-substrate",
+                "@content-cover",
+            ],
             "font-family": ["inherit", "initial", "unset", "/^@/", /@bloko-typography-[a-zA-Z-]+-font-family/]
         },
         "declaration-property-value-disallowed-list": {
