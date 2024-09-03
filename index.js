@@ -117,7 +117,8 @@ module.exports = {
                 "@cover-substrate",
                 "@content-cover",
             ],
-            "font-family": ["inherit", "initial", "unset", "/^@/", /@bloko-typography-[a-zA-Z-]+-font-family/]
+            "font-family": ["inherit", "initial", "unset", "/^@/", /@bloko-typography-[a-zA-Z-]+-font-family/],
+            "/.*/": "/^((?!@magritte-color-component)[\\s\\S])*$/"
         },
         "declaration-property-value-disallowed-list": {
             "/^border/": [HEX_REGEX, RGBA_REGEX, HSLA_REGEX, "/\\bnone\\b/"],
