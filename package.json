@@ -22,5 +22,6 @@
   },
   "scripts": {
     "release": "npm publish --access=public"
-  }
+  },
+  "private": true
 }
