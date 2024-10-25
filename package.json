@@ -16,9 +16,9 @@
     "lodash": "~4.17.21"
   },
   "peerDependencies": {
-    "stylelint": "~13.13.1",
-    "stylelint-order": "~4.1.0",
-    "stylelint-scss": "~3.19.0"
+    "stylelint": ">=16.9.0",
+    "stylelint-order": ">=6.0.4",
+    "stylelint-scss": ">=6.7.0"
   },
   "scripts": {
     "release": "npm publish --access=public"
