@@ -236,6 +236,13 @@ module.exports = {
         // no colors in variables
         "hhru/less-variable-value-disallowed-list": {
             '*': [HEX_REGEX, RGBA_REGEX, HSLA_REGEX],
-        }
+        },
+
+        'hhru/less-import-replacement': [
+            // Unified magritte imports
+            [/@hh\.ru\/magritte-design-tokens(\/.*)/, '@hh.ru/magritte-ui$1'],
+            [/@hh\.ru\/magritte-reset-css\/reset\.css/, '@hh.ru/magritte-ui/reset'],
+            [/@hh\.ru\/magritte-fonts\/fonts\.css/, '@hh.ru/magritte-ui/fonts']
+        ]
     },
 };

@@ -2,6 +2,9 @@
 
 ## История изменений
 
+### 13.0.0
+
+Запрещен импорт magritte-design-tokens, magritte-reset-css, magritte-fonts. Используйте magritte-ui.
 
 ### 11.0.0
 
